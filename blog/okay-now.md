@@ -1,7 +1,5 @@
 redo it all
 
-and again
+Iñtërnâtiônàlizætiøn
 
-from nano
-
-and again
+and now?
