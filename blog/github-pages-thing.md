@@ -22,7 +22,7 @@ So, how do you force a redirect for a static site when you don't control the ser
 
 The only choice is to **do it in JavaScript**. Put the following at the top of your HTML, replacing `YOURDOMAIN` with your user or organization name:
 
-```
+```javascript
 <script>
 var host = "YOURDOMAIN.github.io";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
