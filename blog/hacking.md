@@ -44,12 +44,14 @@ var styles = {
 
 Which can be used like this:
 
-<pre><code class="block">var msg = "%cPlease%c don't spam and ruin the chat! %c  %c %c  %c %c  ";
+```javascript
+var msg = "%cPlease%c don't spam and ruin the chat! %c  %c %c  %c %c  ";
 log.system(
   msg, styles.please, styles.spam, styles.emoji("smiley"),
   styles.spam, styles.emoji("heart"),
   styles.spam, styles.emoji("christmas_tree")
-);</code></pre>
+);
+```
 
 Which produces:
 
