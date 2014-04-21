@@ -32,14 +32,15 @@ The number of spaces you want will depend on how high your text is. At the defau
 
 In practice, using inline CSS in JavaScript is annoying. I try to make it less so be keeping a table of styles and style generators handy, like this:
 
-<pre><code class="block">var styles = {
+```javascript
+var styles = {
   spam: "color: #336699",
   please: "color: #336699; font-weight: bold",
   emoji: function(emoji) {
     return "background-image: url(\"https://isitchristmas.com/emojis/" + emoji + ".png\"); background-size: cover";
   }
-};</code></pre>
-
+};
+```
 
 Which can be used like this:
 
