@@ -23,11 +23,9 @@ So, how do you force a redirect for a static site when you don't control the ser
 The only choice is to **do it in JavaScript**. Put the following at the top of your HTML, replacing `YOURDOMAIN` with your user or organization name:
 
 ```javascript
-<script>
 var host = "YOURDOMAIN.github.io";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location = window.location.toString().replace(/^http:/, "https:");
-</script>
+    window.location.protocol = "https";
 ```
 
 The above hack will immediately redirect any users who visit your domain on an insecure protocol to a secure protocol. It won't affect visitors on any other domain (like `localhost`). This is what we're doing at the [Sunlight Foundation](https://sunlightfoundation.com) now for the documentation for our [Sunlight Congress API](https://sunlightlabs.github.io/congress/).
