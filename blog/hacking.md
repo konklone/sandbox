@@ -89,7 +89,8 @@ I can use the `toString` trick to provide two methods of chatting - one with par
 
 This is what the code looks like:
 
-<pre><code class="block">var say = function(message) {
+```javascript
+var say = function(message) {
   // ... code to send message ...
 
   return blank();
@@ -99,7 +100,8 @@ say.toString = function() {
   say(prompt("What do you want to say?"));
 
   return " ";
-};</code></pre>
+};
+```
 
 And I document it like this:
 
