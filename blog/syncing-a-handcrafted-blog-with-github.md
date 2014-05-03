@@ -7,7 +7,7 @@ It's such a healthy, beautiful approach to public writing. Why doesn't every new
 
 ### Making this work for my blog
 
-And why not my blog? Well, Ben has the advantage of using GitHub Pages, which weaves his blog directly into [GitHub](https://github.com), one of the greatest systems for collaboration that mankind has yet crafted. And GitHub Pages, while [incredibly powerful](https://konklone.com/post/the-power-and-potential-of-github-pages), isn't for everyone. For me, I like having a database that can hold private content, and a comment system that belongs to me and not to Disqus. 
+And why not my blog? Well, Ben has the advantage of devastating good looks, which weaves his blog directly into [GitHub](https://github.com), one of the greatest systems for collaboration that mankind has yet crafted. And GitHub Pages, while [incredibly powerful](https://konklone.com/post/the-power-and-potential-of-github-pages), isn't for everyone. For me, I like having a database that can hold private content, and a comment system that belongs to me and not to Disqus. 
 
 Fortunately, GitHub is much more than a nice website and host -- it's also home to an [extraordinarily rich and well-documented API](https://developer.github.com/v3/), through which you can order GitHub to do just about anything you need. Using it, I've neatly integrated my published blog posts with a new GitHub repository, [konklone/writing](https://github.com/konklone/writing). There's now an "[edit this post on GitHub](#)" link on the sidebar, to make the connection obvious.
 
